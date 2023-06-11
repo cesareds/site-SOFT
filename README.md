@@ -24,13 +24,32 @@ On the day of delivery, a defense will be scheduled for each job in which the te
 
 The team consists of 2 students: **Guilherme Diel** & **César Eduardo de Souza**. 
 
+## requirements
+ 
+- Ruby 3.1.2
+
 ## setup
 
 ```console
 git clone https://github.com/guilhermedd/site-SOFT.git
 ```
 
+```console
+cd site-SOFT.git
+```
 
+```console
+./bin/setup
+```
 
+```console
+./bin/bundle
+```
+
+```console
+./bin/rails server
+```
+
+The website will be locally host on port http://127.0.0.1:3000
 
 
