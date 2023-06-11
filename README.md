@@ -16,7 +16,7 @@ This is a site made for the SOFT (Software Engeneering) subject from Universidad
 all source codes of project classes
 all unit tests produced
 
-Observação: 
+Ps: 
 
 There is beeing used the **Ruby** language with the unit testing framework **test-unit** together with **Javascript** and its framework **JestJS**
 
@@ -24,11 +24,11 @@ On the day of delivery, a defense will be scheduled for each job in which the te
 
 The team consists of 2 students: **Guilherme Diel** & **César Eduardo de Souza**. 
 
-## requirements
+## Requirements
  
 - Ruby 3.1.2
 
-## setup
+## Setup
 
 ```console
 git clone https://github.com/guilhermedd/site-SOFT.git
@@ -50,6 +50,11 @@ cd site-SOFT.git
 ./bin/rails server
 ```
 
+## Usage
+
 The website will be locally host on port http://127.0.0.1:3000
+In there, you`ll need to create an account and follow the steps on the screen to start posting about your feelings
+
+
 
 
