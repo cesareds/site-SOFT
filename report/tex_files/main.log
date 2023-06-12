@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  11 JUN 2023 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  12 JUN 2023 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -277,8 +277,8 @@ Overfull \hbox (54.05441pt too wide) in paragraph at lines 25--25
  [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+5.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1
@@ -288,10 +288,10 @@ al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 No file main.bbl.
 [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5644 strings out of 476025
- 97613 string characters out of 5790017
+ 5645 strings out of 476025
+ 97621 string characters out of 5790017
  1861388 words of memory out of 5000000
- 26033 multiletter control sequences out of 15000+600000
+ 26034 multiletter control sequences out of 15000+600000
  527149 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,10n,77p,503b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -301,7 +301,7 @@ ts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr
 sr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 23/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 79241 bytes).
+Output written on main.pdf (2 pages, 80442 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

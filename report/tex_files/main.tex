@@ -39,50 +39,58 @@
 \end{resumo}
 
 
-\section{Enunciado do trabalho}
+\section{Enunciado do trabalho} % talvez não botar
 No projeto final de SOFT você e sua equipe deverão selecionar um problema a ser solucionado por um software, e especificar o desenvolvimento de tal software. Os seguintes itens devem ser documentados na forma de um documento de texto para a entrega:
-
 \subsection{Descrição do problema}
 contendo o escopo do software e listagem dos stackeholders.
-
 \subsection{Requisitos do software}
 Que poderá ser na forma descritiva de requisitos funcionais e não funcionais, ou histórias de usuário ou protótipos do sistema.
-
 \subsection{Estimativa de duração do projeto completo}
 (Usando Cocomo ou outro método - é preciso mostrar e descrever os passos)
-
 \subsection{Diagrama de Classes do Projeto UML}
 contendo as principais classes do projeto, seus atributos e métodos. A estrutura das classes deve utilizar os padrões de projeto aprendidos sempre que for necessário. Entende-se por necessário o uso de padrões quando o problema relacionado ao padrão se aplique sobre o caso modelado.
-
 \subsection{Testes Unitários}
 a partir do Diagrama de Classes do Projeto, gere um "esqueleto" do código-fonte do projeto. Em seguida, elabore testes unitários para as classes do projeto. Caso não for possível 100\% de cobertura de testes das classes, foque nos métodos mais críticos do projeto justificando sua criticidade no texto. Crie um repositório na nuvem para colocar as classes produzidas e compartilhe o link com acesso ao mesmo no documento de texto. Este repositório deverá conter:
 \begin{itemize}
   \item todos os códigos-fonte das classes do projeto
   \item todos os testes unitários produzidos
 \end{itemize}
-
 \subsection{Observação} 
 Você poderá utilizar a linguagem de programação e framework de testes que lhe for mais conveniente
 No dia da entrega, será programada uma defesa para cada trabalho em que a equipe irá demonstrar os testes elaborados
 As equipes poderão ser compostas por no máximo 3 pessoas.
 
 \section{Descrição do problema} \label{sec:firstpage}
-
 O problema consiste num site escrito em HTML, CSS, Javascript e Ruby on Rails; 
 visando permitir com que as pessoas se expressem, focando no compartilhamento 
 de sentimentos.
 
-\section{Requerimentos}
+\section{Requisitos}
 \subsection{Funcionais}
 \begin{itemize}
   \item Fazer posts
+  \item Mostrar todos os posts do usuário
+  \item Criar conta
+  \item Fazer login 
 \end{itemize}
 \subsection{Não-funcionais}
 \begin{itemize}
-  \item A publicação de posts deve ser foda
+  \item A senha da conta deve conter entre 6 e 20 caracteres
+  \item A publicação de posts deve ser imediata
 \end{itemize}
+\subsection{Histórias de usuário} % Não sei se precisa
+  Entra no site, cria a conta, faz o login, clica para iniciar post, 
+  preenche os campos do post, publica e logo em seguida vê o post na lista de posts.
+\subsection{Protótipo de sistema}
+  O protótipo do sistema está disponível em código fonte para ser 
+  implementado em https://github.com/guilhermedd/site-SOFT 
 
-\section{References}
+\section{Estimativa de duração do projeto completo}
+\subsection{Sobre o método Cocomo}
+  O método COCOMO é um modelo utilizado para estimar o custo e o esforço envolvidos 
+  no desenvolvimento de software. Foi proposto por Barry W. Boehm em 1981 e 
+  tem sido amplamente utilizado na indústria de software para estimar recursos, 
+  tempo e custos envolvidos em projetos de desenvolvimento de software.
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}
