@@ -68,22 +68,42 @@ de sentimentos.
 \section{Requisitos}
 \subsection{Funcionais}
 \begin{itemize}
-  \item Fazer posts
-  \item Mostrar todos os posts do usuário
-  \item Criar conta
-  \item Fazer login 
+  \item \textbf{Registro de usuários}: O website deve permitir que os usuários se cadastrem, fornecendo informações básicas, como nome, endereço de e-mail e senha.
+  \item \textbf{Login e autenticação}: Os usuários registrados devem poder fazer login no website usando suas credenciais de login. O sistema deve garantir a autenticidade e a segurança das informações do usuário.
+  \item \textbf{Compartilhamento de emoções}: Os usuários devem poder compartilhar suas emoções por meio de postagens, textos, imagens ou vídeos.
+  \item \textbf{Visualização de emoções compartilhadas}: Os usuários devem poder visualizar as emoções compartilhadas por outros usuários. Isso pode ser feito por meio de uma página inicial com as postagens mais recentes ou por meio de uma página de pesquisa.
+  \item \textbf{Interação social}: Os usuários devem poder interagir uns com os outros por meio de curtidas, comentários ou compartilhamentos nas postagens de emoções.
+  \item \textbf{Classificação de emoções}: O sistema deve permitir que os usuários classifiquem as emoções compartilhadas por meio de tags ou categorias, facilitando a pesquisa e a descoberta de conteúdo relacionado.
+  \item \textbf{Notificações}: O website deve ser capaz de enviar notificações aos usuários, informando-os sobre novas postagens, interações ou atividades relevantes.
+  \item \textbf{Privacidade e controle de compartilhamento}: Os usuários devem ter controle sobre a privacidade de suas postagens e poder definir quem pode visualizá-las (público, amigos apenas, privado, etc.).
 \end{itemize}
 \subsection{Não-funcionais}
 \begin{itemize}
-  \item A senha da conta deve conter entre 6 e 20 caracteres
-  \item A publicação de posts deve ser imediata
+  \item \textbf{Usabilidade}: O website deve ser fácil de usar, com uma interface intuitiva e amigável, permitindo que os usuários compartilhem suas emoções de forma rápida e fácil.
+  \item \textbf{Desempenho}: O sistema deve ser capaz de lidar com um grande número de usuários e postagens simultaneamente, garantindo uma resposta rápida e sem falhas.
+  \item \textbf{Segurança}: O website deve implementar medidas de segurança robustas para proteger as informações dos usuários, como criptografia de dados, proteção contra ataques de hackers e salvaguarda contra uso indevido das informações.
+  \item \textbf{Escalabilidade}: O sistema deve ser capaz de lidar com o crescimento do número de usuários e dados, permitindo que o website seja escalado conforme necessário.
+  \item \textbf{Disponibilidade}: O website deve estar disponível 24 horas por dia, 7 dias por semana, com um tempo de inatividade mínimo planejado para manutenção ou atualizações.
+  \item \textbf{Responsividade}: O website deve ser responsivo e adaptar-se a diferentes dispositivos, como desktops, tablets e smartphones, garantindo uma experiência consistente em todas as plataformas.
+  \item \textbf{Acessibilidade}: O website deve ser acessível a pessoas com deficiências, seguindo as diretrizes de acessibilidade da web, como o WCAG (Web Content Accessibility Guidelines).
+  \item \textbf{Integração com mídias sociais}: O sistema pode oferecer recursos de integração com outras plataformas de mídia social, permitindo que os usuários compartilhem suas emoções em outras redes.
 \end{itemize}
 \subsection{Histórias de usuário} % Não sei se precisa
-  Entra no site, cria a conta, faz o login, clica para iniciar post, 
-  preenche os campos do post, publica e logo em seguida vê o post na lista de posts.
+\begin{itemize}
+  \item Compartilhar minhas emoções no website para me expressar e compartilhar minha experiência com os outros.
+  \item Visualizar as emoções compartilhadas por outros usuários, para encontrar inspiração, apoio ou conexão emocional.
+  \item Interagir com as postagens de emoções, curtindo, comentando ou compartilhando, para expressar meu apoio ou compartilhar minhas próprias experiências relacionadas.
+  \item Pesquisar emoções específicas ou categorias para encontrar conteúdo relacionado aos meus interesses ou necessidades emocionais.
+  \item Receber notificações sobre atividades relevantes no website, como novas postagens de pessoas que sigo, comentários em minhas postagens ou interações com meu conteúdo.
+  \item Controlar a privacidade das minhas postagens, definindo quem pode visualizá-las (público, amigos apenas, privado), para garantir minha segurança e conforto emocional.
+  \item Classificar e marcar minhas próprias emoções compartilhadas, para facilitar a organização, pesquisa e recuperação do meu próprio conteúdo emocional.
+  \item Como usuário, quero que o website seja fácil de usar e intuitivo, com uma interface clara e simples, para que eu possa compartilhar minhas emoções sem complicações ou dificuldades.
+  \item Eu espero que o website seja rápido e responsivo, permitindo uma navegação suave e rápida entre as postagens e recursos do site.
+  \item Eu quero que o website seja seguro, protegendo minhas informações pessoais e garantindo que minha privacidade seja respeitada.
+\end{itemize}
 \subsection{Protótipo de sistema}
   O protótipo do sistema está disponível em código fonte para ser 
-  implementado em https://github.com/guilhermedd/site-SOFT 
+  implementado por Guilherme Diel (2023) site-SOFT em https://github.com/guilhermedd/site-SOFT 
 
 \section{Estimativa de duração do projeto completo}
 \subsection{Sobre o método Cocomo}
@@ -91,6 +111,52 @@ de sentimentos.
   no desenvolvimento de software. Foi proposto por Barry W. Boehm em 1981 e 
   tem sido amplamente utilizado na indústria de software para estimar recursos, 
   tempo e custos envolvidos em projetos de desenvolvimento de software.
+\subsection{1º Passo do algoritmo: Separar os elementos do software}
+\subsubsection{Número de entradas externas (EE)}
+  São \textbf{4} entradas externas:
+  \begin{itemize}
+    \item \textbf{Registro de usuários}: Captura das informações básicas do usuário durante o processo de registro.
+    \item \textbf{Login e autenticação}: Recebimento das credenciais de login do usuário para autenticar e permitir o acesso ao sistema.
+    \item \textbf{Compartilhamento de emoções}: Entrada das emoções compartilhadas pelos usuários por meio de postagens, textos, imagens ou vídeos.
+    \item \textbf{Classificação de emoções}: Entrada das tags ou categorias atribuídas pelos usuários para classificar as emoções compartilhadas.
+  \end{itemize}
+\subsubsection{Número de saídas externas (SE)}
+  São \textbf{3} saídas externas:
+  \begin{itemize}
+    \item \textbf{Visualização de emoções compartilhadas}: Exibição das emoções compartilhadas por outros usuários, seja em uma página inicial ou por meio de uma pesquisa.
+    \item \textbf{Interatividade social}: Exibição das interações dos usuários, como curtidas, comentários ou compartilhamentos, nas postagens de emoções.
+    \item \textbf{Notificações}: Envio de notificações aos usuários para informá-los sobre novas postagens, interações ou atividades relevantes.
+  \end{itemize}
+\subsubsection{Número de consultas externas (CE)}
+  Tem \textbf{1} consultas externas:
+  \begin{itemize}
+    \item \textbf{Pesquisa de emoções}: Consulta realizada pelos usuários para buscar emoções específicas ou categorias relacionadas.
+  \end{itemize}
+\subsubsection{Número de arquivos lógicos internos (ALI)}
+  São \textbf{2} arquivos lógicos internos:
+  \begin{itemize}
+    \item \textbf{Registro de usuários}: Manutenção das informações básicas dos usuários registrados.
+    \item \textbf{Compartilhamento de emoções}: Armazenamento das emoções compartilhadas pelos usuários, juntamente com as informações relevantes, como data e hora da postagem.
+  \end{itemize}
+\subsubsection{Número de arquivos de interface externos (AIE)}
+  Tem \textbf{1} arquivos de interface externos:
+    \begin{itemize}
+      \item \textbf{Integração com mídias sociais}: Interface para integração com outras plataformas de mídia social, permitindo que os usuários compartilhem suas emoções em outras redes.
+    \end{itemize}
+\subsection{2º passo do algoritmo: Definir o nível de complexidade: definido em função da quantidade de campos e entidades envolvidas}
+    Esse software tem nível de complexidade baixa para todos os elementos, pois lida apenas com informações básicas.
+\subsection{3º passo do algoritmo: Definir os pesos para cada elemento conforme complexidade}
+    \begin{itemize}
+      \item coisa
+    \end{itemize}
+
+
+\section{Diagrama de classes do projeto UML}
+
+
+\section{Testes unitários}
+
+
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}
